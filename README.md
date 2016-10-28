@@ -1,2 +1,3 @@
-# IntroTarea
-Implemetacion de una lista enlazada
+# Linked List
+
+Implementación del TDA de listas enlazadas.
