@@ -24,8 +24,8 @@ int main()
 {
     int tecla;
 
-    system("clear");
-    cin.clear();
+    system("cls")
+    cin.clear()
     cout << "LISTA ENLAZADA" << endl;
     cout << "==============" << endl;
     cout << "\t1 .- Mostrar valores a la lista" << endl;
@@ -36,22 +36,7 @@ int main()
 
     cin >> tecla;
 
-    switch(tecla)
-    {
-      system("clear");
-      case 1:
-        cout << "== Valores de la lista ==" << endl;
-        cout << "En construcción" << endl;
-      case 2:
-        cout << "== Agregar un valor de la lista ==" << endl;
-        cout << "En construcción" << endl;
-      case 3:
-        cout << "== ELiminar un valor de la lista ==" << endl;
-        cout << "En construcción" << endl;
-      case 4:
-        cout << "== Localizar un valor de la lista ==" << endl;
-        cout << "En construcción" << endl;
-    }
+    cout << tecla << endl;
 
     node *ptr;
     cout << ptr << endl;
@@ -59,6 +44,6 @@ int main()
     ptr -> value = 1;
     ptr -> next = NULL;
     add_node(ptr, 2);
-    cout << ptr->value << ptr->next->value<<endl;
+    cout << ptr->value << ptr->ne  xt->value<<endl;
     return 0;
 }
